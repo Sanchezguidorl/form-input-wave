@@ -1,0 +1,13 @@
+@import './styles/FormComponent.css';
+
+body{
+  background-color: #242424;
+  padding: 10px 10px;
+}
+
+#App{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

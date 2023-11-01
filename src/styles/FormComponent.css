@@ -1,0 +1,73 @@
+#Form{
+    background: linear-gradient(45deg,rgb(30, 9, 49), #26456c);
+    width: 100%;
+    max-width: 315px;
+    padding: 30px 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.input-container{ 
+    user-select: none;
+    margin: 24px 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    height: 60px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+
+}
+
+.input-container label span{
+    color: #fff;
+    position: relative;
+    top:29px;
+    z-index: 1;
+    transition: all 0.1s ease-in;
+}
+
+.input-container input{
+    margin-top: 10px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+    font-size: 16px;
+    padding:0px;
+    background-color: #00000000;
+    outline-offset: none;
+    outline: none;
+    border: none;
+}
+
+#Form p{
+    text-align: left;
+    font-size: .7em;
+}
+
+#Form .input-active{
+    top: 0px;
+    color: #467fc4;
+}
+
+.btn-submit{
+    background-color: #2a578e;
+    color: #fff;
+    border: none;
+    padding: 16px;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.btn-submit:hover{
+    filter: brightness(1.4);
+    cursor: pointer;
+}
+
+#link-register{
+    margin-left: 10px;
+    color: #467fc4;
+    text-decoration: none;
+}
